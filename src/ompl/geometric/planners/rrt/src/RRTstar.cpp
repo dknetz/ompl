@@ -516,6 +516,8 @@ ompl::base::PlannerStatus ompl::geometric::RRTstar::solve(const base::PlannerTer
                 }
             }
 
+            std::cout<<"best cost: " << bestCost_ << std::endl;
+
             // Checking for approximate solution (closest state found to the goal)
             if (goalMotions_.size() == 0 && distanceFromGoal < approximatedist)
             {
