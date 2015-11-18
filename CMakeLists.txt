@@ -38,8 +38,8 @@ include(CompilerSettings)
 include(OMPLVersion)
 include(OMPLUtils)
 
-set(EXECUTABLE_OUTPUT_PATH "${PROJECT_BINARY_DIR}/bin")
-set(LIBRARY_OUTPUT_PATH "${PROJECT_BINARY_DIR}/lib")
+#set(EXECUTABLE_OUTPUT_PATH "${PROJECT_BINARY_DIR}/bin")
+#set(LIBRARY_OUTPUT_PATH "${PROJECT_BINARY_DIR}/lib")
 
 set(OMPL_CMAKE_UTIL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/CMakeModules"
     CACHE FILEPATH "Path to directory with auxiliary CMake scripts for OMPL")
