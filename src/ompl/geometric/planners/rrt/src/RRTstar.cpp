@@ -138,6 +138,7 @@ void ompl::geometric::RRTstar::setup()
     {
         OMPL_INFORM("%s: problem definition is not set, deferring setup completion...", getName().c_str());
         setup_ = false;
+        return;
     }
 
     // Get the measure of the entire space:
