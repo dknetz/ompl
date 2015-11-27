@@ -227,3 +227,12 @@ if (OMPL_REGISTRATION)
         endif()
     endif()
 endif()
+
+find_package(catkin REQUIRED)
+
+catkin_package(
+	INCLUDE_DIRS src
+	LIBRARIES ompl
+#  CATKIN_DEPENDS .
+#  DEPENDS system_lib
+)
